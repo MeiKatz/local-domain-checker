@@ -12,8 +12,6 @@
       sum += blocks[4] * (1 << (0 * 8)); // ==          1 == 256^0
 
       return sum;
-    } else {
-      return -1;
     }
   }
 
