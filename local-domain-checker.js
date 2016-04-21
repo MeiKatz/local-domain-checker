@@ -1,7 +1,4 @@
 (function (window) {
-  var CHECKNUMBER_MAX = (1 << (3 * 8)) - 2; // 16.777.214 == 256^3 - 2
-  var CHECKNUMBER_MIN = 1;
-
   var ip2dec = function (address) {
     var blocks = address.match(/^(\d+)\.(\d+)\.(\d+)\.(\d+)$/);
 
