@@ -35,7 +35,7 @@
     return address == "localhost";
   }
 
-  return function (address) {
+  window.isLocal = function (address) {
     var fns = [
       isLocalhost,
       hasLocalTLD,
